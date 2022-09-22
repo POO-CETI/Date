@@ -8,10 +8,5 @@ int main() {
 	std::cin >> dayChain;
 
 	Date date1 = Date(dayChain);
-
-	date1.setYear();
-	date1.setMonth();
-	date1.setDay();
-
-	date1.toString();
+  	date1.toString();
 }
